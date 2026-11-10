@@ -1,6 +1,7 @@
 name: CI            # shows as “CI” in the Actions tab
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:      # runs on every PR
